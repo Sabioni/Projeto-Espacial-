@@ -1,0 +1,127 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+
+ :root {
+     --preto-padrao: #0B0D17;
+     --cinza-secundario: #616476;
+     --branco-padrao: #FFFFFF;
+ }
+
+
+ body {
+     background-image: url(image/home/background-home-desktop.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cabecalho img{
+    margin-top: 5vh;
+    margin-left: 5vh;
+    width: 48px;
+    height: 48px;
+}
+
+.navegacao{
+    color: var(--branco-padrao);
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    margin: 12px 0px 24px 0px 
+    /* cima direita baixo esquerda */
+}
+
+.navlist{
+    list-style-type: none;
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 180px;
+    padding-left: 80px;
+    
+}
+
+.itemlist{
+   padding: 5vh 3vh 2vh 10vh;
+   
+   
+}
+.btn-round {
+    width: 274px;
+    height: 274px;
+     border-radius: 274px;
+     background: #FFF;
+     color: #0B0D17;
+    font-family: Bellefair;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    border: none;
+ }
+
+ .texto{
+    color: var(--branco-padrao);
+    text-align: left;
+ }
+
+ .texto h1 {
+    color: #FFF;
+    font-family: Bellefair;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 24px 0;
+ }
+
+ .texto h2{
+    color: #D0D6F9;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    
+ }
+ .texto h3{
+    color: #D0D6F9;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+ }
+
+ .exploracao {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .exploracao .texto {
+    position: relative;
+    bottom: -40vh;
+  }
+
+ .button {
+    text-align: right;
+    position: relative;
+    bottom: -50vh;
+  }
+.navbar-brand{
+    color: #FFF;
+}
+
+
+
+
+
+
